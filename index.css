@@ -209,4 +209,20 @@
    justify-content: center;
 }
 
+.features-list {
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 80px;
+}
+
+.instructor {
+   text-align: center;
+}
+
+.instructors {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
  
