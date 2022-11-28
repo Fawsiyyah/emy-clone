@@ -1,0 +1,173 @@
+ *{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ .container {
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 50px;
+ }
+
+ 
+ .category {
+    font-size: 20px;
+   margin-top: 20px;
+ }
+
+ .button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* padding: 0 2.4rem 0 0; */
+    border: 1px solid #1c1d1f;
+   border-radius: 75px ;
+   padding: 10px;
+   padding-right: 200px;
+   color: black;
+ }
+
+ .search {
+    padding-left: 10px;
+ }
+
+ .cart {
+    font-weight: bolder;
+ }
+ .border {
+    text-decoration: none;
+ }
+
+ .login-button {
+    border: 1px solid black;
+    padding: 20px;
+    font-weight: bolder;
+ }
+
+ .signin-button  {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+ }
+
+ #learner-section {
+    background: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    background-size:contain;
+    margin-right:10px ;
+    margin-left: 10px;
+    padding: 100px;
+    margin-top: 10px;
+ }
+
+ .container1 {
+    display: flex;
+  
+
+ }
+
+ .card {
+   background: white;
+   text-align: left;
+   position: absolute;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 2.4rem
+ }
+
+ .learn-text {
+    font-size: 3.2rem;
+ }
+
+ .learn-text2 {
+    font-size: 1.6rem;
+ }
+
+ #courses-section {
+    padding: 30px;
+ }
+ .course-text {
+    max-width: 80rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+ }
+
+ .course-textb {
+    margin: 1.6rem 0 0;
+    max-width: 80rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.9rem;
+ }
+
+ .course-text2 {
+    list-style: none;
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-gap: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    color: #1c1d1f;
+ }
+
+ .course-textc {
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    margin-top: 20px;
+ }
+
+ .python-button {
+    position: relative;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+    display: inline-flex;
+    min-width: 8rem;
+    padding: 10px;
+    justify-content: center;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: bottom;
+    white-space: nowrap;
+ }
+
+ .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 10px;
+    text-overflow: ellipsis;
+ }
+.card-border {
+   background-color: #1c1d1f;
+    border: 1px solid #d1d7dc;
+    overflow: hidden;
+    position: relative
+}
+
+.card-text {
+   font-weight: 400;
+   line-height: 1.4;
+   font-size: 1.4rem;
+   font-weight: bold;
+   margin-top: 20px;
+}
+ .instructor {
+    text-overflow: ellipsis;
+    white-space: normal;
+    color: #6a6f73;
+ }
+
+ .bestseller {
+   background-color: #eceb98;
+    color: #3d3c0a;
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    white-space: nowrap;
+ }
