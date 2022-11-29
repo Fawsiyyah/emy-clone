@@ -64,6 +64,11 @@
     margin-top: 10px;
  }
 
+ #student-section {
+   padding-left: 60px;
+   margin-bottom: 30px;
+ }
+
  .container1 {
     display: flex;
   
@@ -212,7 +217,6 @@
 .features-list {
    display: flex;
    justify-content: space-between;
-   padding: 0px 80px;
 }
 
 .instructor {
@@ -226,3 +230,99 @@
    text-align: center;
 }
  
+#container-features {
+   background: #f7f9fa;
+   padding: 100px 50px;
+}
+
+.card-text1 {
+   font-weight: 400;
+   line-height: 1.4;
+   font-size: 1.6rem;
+   font-weight: bold;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.card-text2 {
+   font-weight: 400;
+   line-height: 1.4;
+   font-size: 1.4rem;
+   font-weight: bold;
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+
+.container-sects {
+   background: #f7f9fa;
+}
+
+.team-text {
+   margin-top: 100px;
+   text-align: center;
+   padding-left: 300px;
+   padding-top: 100px;
+}
+
+#container-sects {
+   padding-bottom: 50px;
+}
+
+
+.instructors-text {
+   margin-bottom: 30px;
+}
+
+.phython-button2 {
+   color: black ;
+}
+
+.business-logo {
+   text-align:left ;
+}
+
+#business-section {
+   margin-bottom: 100px;
+}
+
+footer{
+   background-color: rgba(0, 0, 0, 0.884);
+   color: #fff;
+   padding: 30px;
+}
+.options{
+   display: grid;
+   grid-template-columns: 250px 250px 250px 250px;
+   grid-gap: 10px;   
+}
+.options li{
+   list-style-type: none;
+   font-size: 18px;
+   font-weight: 400;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.sub-footer{
+   display: flex;
+   justify-content: space-between;
+}
+.sub-footer1{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 45px;
+}
+.sub-footer button{
+   width: 140px;
+   height: 40px;
+   border: 1px solid #fff;
+   background-color: transparent;
+   color: #fff;
+   font-size: 18px;
+   margin-top: 5px;
+}
+.sub-footer1 svg{
+   margin-left: 35px;
+}
+.sub-footer1 p{
+   font-size: 15px;
+}
